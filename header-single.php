@@ -21,13 +21,13 @@
                 <a href="/">
                     Home
                 </a>
-                <a href="#programacao">
+                <a href="<?php echo get_site_url('','/#programacao')?>">
                     Programação
                 </a>
-                <a href="#equipe">
+                <a href="<?php echo get_site_url('','/#equipe')?>">
                     Equipe
                 </a>
-                <a href="#sobre">
+                <a href="<?php echo get_site_url('','/#contato')?>">
                     Contato
                 </a>
             </nav>
@@ -84,6 +84,7 @@
     </div>
 </section>
 
+
 <nav id="menu-mobile">
     <i class="far fa-window-close close"></i>
     <ul>
@@ -93,7 +94,7 @@
             </a>
         </li>
         <li>
-        <a href="<?php echo get_site_url('','/#programacao')?>">
+            <a href="<?php echo get_site_url('','/#programacao')?>">
                 Programação
             </a>
         </li>

@@ -15,6 +15,10 @@ function classic_wp_load_scripts() {
     wp_enqueue_script( 'classic-wp-font-awesome', 'https://kit.fontawesome.com/500b5b939a.js', array(), '', true );
     wp_enqueue_script( 'classic-wp-owl-js', get_template_directory_uri() . '/inc/owlCarousel/js/owl.carousel.min.js', array(), '', true );
     wp_enqueue_script( 'owl-js', get_template_directory_uri() . '/assets/js/owl.js', array(), '', true );
+    wp_enqueue_script( 'pag-js', get_template_directory_uri() . '/assets/js/paginacao-programacao.js', array(), '', true );
+    wp_enqueue_script( 'play-js', get_template_directory_uri() . '/assets/js/page-player-desktop.js', array(), '', true );
+    wp_enqueue_script( 'btns-js', get_template_directory_uri() . '/assets/js/actions-buttons.js', array(), '', true );
+    wp_enqueue_script( 'menu-js', get_template_directory_uri() . '/assets/js/menu-mobile.js', array(), '', true );
     wp_enqueue_script('jquery'); 
 }
 
